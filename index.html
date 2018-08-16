@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>test_prj</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="./css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+      <main class="container">
+	   <input class="container__input" id="input_data" type="text" disabled>
+	   <div class="container__register">
+	    <input id="register" type="checkbox" value="reg" disabled>
+        <label for="register" disabled>Enable register</label>
+       </div>
+	   <button class="container__button" id="long_word_filter" onClick="longWordFilter()" disabled>long word filter</button>
+	   <button class="container__button" id="substring_filter" onClick="substringFilter()" disabled>substring filter</button>
+	   <div class="container__output" id="output_data"></div>
+	  </main>
+	  <script src="./js/bundle.js"></script>
+	</body>
+</html>

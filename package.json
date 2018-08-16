@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-static": "^0.7.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divupweb/test_prj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divupweb/test_prj/issues"
+  },
+  "homepage": "https://github.com/divupweb/test_prj#readme"
+}
